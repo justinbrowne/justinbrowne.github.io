@@ -23,3 +23,9 @@ color: black;
   height: 100px;
   font-size: 2em;
 }
+
+.button:hover, .botton:active {
+  background-color: lightblue;
+  color: white;
+  border: 1px solid white;
+}
