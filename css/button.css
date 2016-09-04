@@ -5,6 +5,7 @@ border: 1px solid lightblue;
 background-color: lightblue;
 text-decoration: none;
 color: white;
+cursor: pointer;
 }
 
 .button-sm {
