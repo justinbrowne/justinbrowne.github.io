@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+
+/*******
+Header
+*******/
+
+#main-header {
+  text-align: center;
+  line-height: 10px;
+}
+
+.header-font {
+  font-family: 'Bungee Shade', sans-serif;
+}
+
+.name,
+.path {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  padding: 25px;
+}
+
+.path {
+  padding: 10px;
+}
+
+
+/******
+Links and List Edits
+*******/
+
+current {
+  cursor: default;
+  background-color: #bbb;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav li {
+  display: inline-block;
+  position: relative;
+  padding: 0 10px 0 0;
+}
+
+
+/**********
+
+ul.nav {
+  width: 100%;
+}
+
+.forms {
+  float: right;
+  margin: 0 50px 0 0;
+}
+
+***********/
+
+.nav {
+    margin: 0 0 0 20px;
+    width: 300px;
+}
+
+ul {
+  position: absolute;
+}
+
+.nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Bungee Inline', sans-serif;
+  text-transform: uppercase;
+  font-size: 80%;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.nav a:hover {
+  background-color: #bbb;
+}
+
+nav ul ul {
+  display: none;
+}
+
+nav ul li:hover ul {
+  display: inline-block;
+}
+
+
+/****
+Sub-Menu
+****/
+
+.nav li li {
+  font-size: .7em;
+}
+
+
+/*****
+Picture
+*****/
+
+img {
+  width: 33%;
+  opacity: 0.4;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */
+}
+
+#pic {
+  display: block;
+  margin: 0 auto;
+  border-radius: 360px;
+}
+
+
+/******
+Quote
+******/
+
+#quote {
+  font-family: 'Alfa Slab One', sans-serif;
+  color: white;
+  font-size: 2em;
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  clear: both;
+}
+
+
+/******
+Main Styling
+******/
+
+body {
+  background-color: #ccc;
+}
+
+
+/******
+Footer
+******/
+
+.bio {
+  text-align: center;
+  font-family: 'Alfa Slab One', sans-serif;
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 200px 0 0 0;
+}
+
+.bio p {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bio a {
+  color: white;
+}
