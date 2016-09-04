@@ -184,3 +184,12 @@ Footer
 .bio a {
   color: white;
 }
+
+
+/**********
+Button Page
+**********/
+
+.buttonplacement {
+  margin: 200px 0 0 200px;
+}
