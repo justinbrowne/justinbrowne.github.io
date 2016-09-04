@@ -45,6 +45,16 @@ Header
 }
 
 
+/*******
+Positioning
+********/
+
+.buttonplacement {
+text-align: center;
+padding-top: 200px;
+}
+
+
 /******
 Links and List Edits
 *******/
@@ -63,6 +73,20 @@ a {
   position: relative;
   padding: 0 10px 0 0;
 }
+
+
+/**********
+
+ul.nav {
+  width: 100%;
+}
+
+.forms {
+  float: right;
+  margin: 0 50px 0 0;
+}
+
+***********/
 
 .nav {
     margin: 0 0 0 20px;
@@ -171,6 +195,21 @@ Footer
   color: white;
 }
 
+/**********
+Project Page
+**********/
+
+.project {
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Bungee Inline', sans-serif;
+}
+
+.project a:link, .project a:visited {
+  color: white;
+}
 
 /**********
 Button Page
@@ -180,3 +219,5 @@ Button Page
 text-align: center;
 padding-top: 200px;
 }
+
+
