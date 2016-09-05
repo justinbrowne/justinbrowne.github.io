@@ -74,8 +74,6 @@ a {
   padding: 0 10px 0 0;
 }
 
-
-
 ul.nav {
   width: 100%;
 }
@@ -109,9 +107,6 @@ ul {
   font-size: 80%;
   letter-spacing: 2px;
   position: relative;
-}
-
-.nav a li {
 }
 
 .nav a:hover {
