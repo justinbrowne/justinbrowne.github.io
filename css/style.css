@@ -38,22 +38,13 @@ Header
 
 .name {
   padding: 25px;
+  line-height: 25px;
 }
 
 .path {
-  padding: 10px;
+  padding: 15px;
+  line-height: 25px;
 }
-
-
-/*******
-Positioning
-********/
-
-.buttonplacement {
-text-align: center;
-padding-top: 200px;
-}
-
 
 /******
 Links and List Edits
@@ -71,36 +62,19 @@ a {
 .nav li {
   display: inline-block;
   position: relative;
-  padding: 0 10px 0 0;
-}
-
-ul.nav {
-  width: 100%;
-}
-
-.forms {
-  float: left;
-  margin: 0 0 0 20%;
-}
-
-.projects {
-  float: right;
-  margin: 0 22% 0 0;
-}
-
-.nav {
-    margin: 0 0 0 20px;
-    width: 100%;
 }
 
 
 ul {
   position: absolute;
+  left: 10%;
+  max-width: 80%;
+  width: 100%;
 }
 
 .nav a {
   display: block;
-  color: #ddd;
+  color: #ccc;
   text-decoration: none;
   font-family: 'Bungee Inline', sans-serif;
   text-transform: uppercase;
@@ -122,10 +96,17 @@ nav ul li:hover ul {
   display: inline-block;
 }
 
+.forms {
+  float: right;
+}
 
 /****
 Sub-Menu
 ****/
+
+.sub-menu {
+  width: 200px;
+}
 
 .nav li li {
   font-size: .7em;
@@ -137,7 +118,7 @@ Picture
 *****/
 
 img {
-  width: 33%;
+  max-width: 33%;
   opacity: 0.4;
   filter: alpha(opacity=50);
   /* For IE8 and earlier */
@@ -146,23 +127,27 @@ img {
 #pic {
   display: block;
   margin: 0 auto;
-  border-radius: 360px;
+  border-radius: 50%;
 }
 
+section {
+  padding-top: 50px;
+}
 
 /******
 Quote
 ******/
 
+
+
 #quote {
   font-family: 'Alfa Slab One', sans-serif;
   color: white;
-  font-size: 2em;
-  width: 75%;
+  font-size: 150%;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
-  display: block;
-  clear: both;
+  padding-top: 20px;
 }
 
 
