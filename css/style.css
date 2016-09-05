@@ -33,7 +33,7 @@ Header
 
 .name,
 .path {
-  color: rgba(0, 0, 0, 0.2);
+  color: white;
 }
 
 .name {
@@ -42,6 +42,16 @@ Header
 
 .path {
   padding: 10px;
+}
+
+
+/*******
+Positioning
+********/
+
+.buttonplacement {
+text-align: center;
+padding-top: 200px;
 }
 
 
@@ -65,18 +75,22 @@ a {
 }
 
 
-/**********
+
 
 ul.nav {
   width: 100%;
 }
 
 .forms {
-  float: right;
-  margin: 0 50px 0 0;
+  float: left;
+  margin: 0 0 0 20%;
 }
 
-***********/
+.projects {
+  float: right;
+  margin: 0 22% 0 0;
+}
+
 
 .nav {
     margin: 0 0 0 20px;
@@ -89,7 +103,7 @@ ul {
 
 .nav a {
   display: block;
-  color: #fff;
+  color: #ddd;
   text-decoration: none;
   font-family: 'Bungee Inline', sans-serif;
   text-transform: uppercase;
@@ -98,8 +112,12 @@ ul {
   position: relative;
 }
 
+.nav a li {
+}
+
 .nav a:hover {
-  background-color: #bbb;
+  background-color: #ccc;
+  color: white;
 }
 
 nav ul ul {
@@ -159,7 +177,7 @@ Main Styling
 ******/
 
 body {
-  background-color: #ccc;
+  background-color: #aaa;
 }
 
 
@@ -184,3 +202,30 @@ Footer
 .bio a {
   color: white;
 }
+
+/**********
+Project Page
+**********/
+
+.project {
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Bungee Inline', sans-serif;
+}
+
+.project a:link, .project a:visited {
+  color: white;
+}
+
+/**********
+Button Page
+**********/
+
+.buttonplacement {
+text-align: center;
+padding-top: 200px;
+}
+
+
