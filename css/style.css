@@ -33,7 +33,7 @@ Header
 
 .name,
 .path {
-  color: white;
+  color: rgba(0, 0, 0, 0.2);
 }
 
 .name {
@@ -42,16 +42,6 @@ Header
 
 .path {
   padding: 10px;
-}
-
-
-/*******
-Positioning
-********/
-
-.buttonplacement {
-text-align: center;
-padding-top: 200px;
 }
 
 
@@ -99,7 +89,7 @@ ul {
 
 .nav a {
   display: block;
-  color: #ddd;
+  color: #fff;
   text-decoration: none;
   font-family: 'Bungee Inline', sans-serif;
   text-transform: uppercase;
@@ -108,12 +98,8 @@ ul {
   position: relative;
 }
 
-.nav a li {
-}
-
 .nav a:hover {
-  background-color: #ccc;
-  color: white;
+  background-color: #bbb;
 }
 
 nav ul ul {
@@ -173,7 +159,7 @@ Main Styling
 ******/
 
 body {
-  background-color: #aaa;
+  background-color: #ccc;
 }
 
 
@@ -198,30 +184,3 @@ Footer
 .bio a {
   color: white;
 }
-
-/**********
-Project Page
-**********/
-
-.project {
-  text-align: center;
-  padding-top: 100px;
-  color: white;
-  text-decoration: none;
-  font-family: 'Bungee Inline', sans-serif;
-}
-
-.project a:link, .project a:visited {
-  color: white;
-}
-
-/**********
-Button Page
-**********/
-
-.buttonplacement {
-text-align: center;
-padding-top: 200px;
-}
-
-
