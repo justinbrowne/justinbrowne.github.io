@@ -76,7 +76,6 @@ a {
 
 
 
-
 ul.nav {
   width: 100%;
 }
@@ -91,11 +90,11 @@ ul.nav {
   margin: 0 22% 0 0;
 }
 
-
 .nav {
     margin: 0 0 0 20px;
-    width: 300px;
+    width: 100%;
 }
+
 
 ul {
   position: absolute;
@@ -185,7 +184,7 @@ body {
 Footer
 ******/
 
-.bio {
+.footer {
   text-align: center;
   font-family: 'Alfa Slab One', sans-serif;
   color: white;
@@ -194,12 +193,12 @@ Footer
   padding: 200px 0 0 0;
 }
 
-.bio p {
+.footer p {
   width: 100%;
   margin: 0 auto;
 }
 
-.bio a {
+.footer a {
   color: white;
 }
 
@@ -227,5 +226,16 @@ Button Page
 text-align: center;
 padding-top: 200px;
 }
+
+/********
+Sidepar Page
+********/
+
+.sidebarplacement {
+padding-top: 100px;
+}
+
+
+
 
 
