@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/******
+Product and Rows
+******/
+
+.product-row{
+  padding: 0 10px;
+  float: left;
+  width: 100%;
+}
+
+.product {
+  width: 100%;
+  text-align: center;
+}
+
+.product button{
+  width: 90%;
+  margin: 5%;
+  padding: 10px 0;
+}
+
+.product-wrapper{
+  width: 25%;
+  float: left;
+    padding: 8px;
+}
+
+.name {
+  text-align: center;
+  display: block;
+}
+
+.price {
+  color: #FF2B6A;
+  text-align: center;
+  display: inline-block;
+}
+
+.productamount {
+  width: 50px;
+  height: 21px;
+  display: inline-block;
+  box-shadow: none;
+}
+
+
+h1 {
+  color: #32a4fb;
+}
+
+button {
+  border: 1px solid #2EFFA8;
+  background-color: white;
+  display: inline-block;
+  color: #FF2E86;
+  outline: none;
+}
+
+.product {
+  border: 1px solid #FF2E86;
+  overflow: hidden;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: #2EFFA8;
+  cursor: pointer;
+  color: black;
+}
+
+.price {
+  color: #FF2E86;
+}
+
+/******
+Shopping Cart, buttons, promo
+******/
+
+.carticon {
+  width: 30px;
+  height: 30px;
+}
+
+.shoppingcart {
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.promo {
+  width: 190px;
+}
+
+
+.checkout {
+  display: block;
+  font: 1.8em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 125px;
+}
+
+.ksbtn {
+  font-size: 1.5em;
+}
+
+.remove {
+  color: red;
+  background-color: white;
+  border: none;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.carttotal:link {
+  text-decoration: none;
+  color: #32a4fb;
+}
+
+.remove:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.carttotal {
+  width: 75px;
+}
+
+.shoppingcart div{
+  margin-right: 15px;
+  text-align:right;
+}
+
+.shoppingcart button{
+  width: 100%;
+  padding: 7px;
+  min-width: 100px;
+  margin-top: 10px;
+}
+
+.shoppingcart input{
+  padding: 7px;
+  min-width: 100px;
+}
+
+.pull-right{
+  float: right;
+}
+
+.clear{
+  clear: both;
+}
+
+img.carticon {
+  cursor: default;
+}
+
+#Empty-Cart{
+  color: red;
+  cursor:pointer;
+  display:block;
+  margin: 8px 0;
+}
+
+#Empty-Cart:hover{
+  color: black;
+}

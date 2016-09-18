@@ -1,0 +1,32 @@
+  .button {
+display: inline-block;
+text-align: center;
+border: 1px solid lightblue;
+background-color: lightblue;
+text-decoration: none;
+color: white;
+cursor: pointer;
+}
+
+.button-sm {
+  width: 40px;
+  height: 20px;
+  font-size: .53em;
+}
+
+.button-md {
+  width: 100px;
+  height: 40px;
+}
+
+.button-lg {
+  width: 200px;
+  height: 100px;
+  font-size: 2em;
+}
+
+.button:hover, .botton:active {
+  background-color: #bbb;
+  color: white;
+  border: 1px solid lightblue;
+}

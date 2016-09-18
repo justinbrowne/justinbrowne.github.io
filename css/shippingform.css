@@ -1,0 +1,76 @@
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+
+
+form {
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 240px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.sandb {
+  padding: 20px;
+}
+
+.sandb label {
+  color: #32a4fb;
+  display: block;
+  font-weight: bold;
+}
+
+.sandb input {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%;
+}
+
+.ssab {
+  font-size: .8em;
+  color: black;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+#checkbox {
+  border: none;
+  box-shadow: none;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+}
+
+
+.submit {
+  color: #32a4fb;
+}
+
+.submit:hover {
+  background-color: #32a4fb;
+  cursor: pointer;
+  color: white;
+}
+
+
