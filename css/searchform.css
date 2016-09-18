@@ -12,12 +12,12 @@ form {
   border-radius: 5px;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden;
+  margin: 0 auto;
+  width: 600px;
 }
 
 fieldset {
   border: none;
-  margin: 0 auto;
-  width: 800px;
 }
 
 input {
@@ -27,7 +27,7 @@ input {
 
 
 .search {
-  width: 60%;
+  width: 300px;
   border: 1px solid #32a4fb;
 }
 
@@ -54,8 +54,4 @@ input {
 
 select:hover {
   cursor: pointer;
-}
-
-.searchform {
-  width: 1000px;
 }
