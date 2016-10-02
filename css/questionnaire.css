@@ -27,16 +27,23 @@ input {
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   float: left;
+  margin-right: 10px;
+
 }
 
 .qnr {
   padding: 20px;
 }
 
+.qstn {
+  padding-top: 20px;
+}
+
 .qnr label {
   color: #32a4fb;
   display: block;
   font-weight: bold;
+  padding-left: 18px;
 }
 
 
@@ -49,12 +56,17 @@ input {
 }
 
 .other {
-  margin-top: auto;
-  margin-bottom: auto;
+  width: 120px;
+  height: 19px;
 }
+
+
 
 .submit {
   color: #32a4fb;
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .submit:hover {
