@@ -4,29 +4,41 @@ text-align: center;
 border: 1px solid lightblue;
 background-color: lightblue;
 text-decoration: none;
-color: white;
+color: black;
 cursor: pointer;
+margin: 20px;
+box-shadow: 1px 1px 10px black;
+border-radius: 10px;
+font-size: .8em;
+padding: 0 5px 0 5px;
 }
 
 .button-sm {
-  width: 40px;
-  height: 20px;
-  font-size: .53em;
+  width: 50px;
+  height: 25px;
+  font-size: .65em;
+
 }
 
 .button-md {
-  width: 100px;
-  height: 40px;
+  width: 70px;
+  height: 35px;
 }
 
 .button-lg {
-  width: 200px;
-  height: 100px;
-  font-size: 2em;
+  width: 80px;
+  height: 40px;
 }
 
-.button:hover, .botton:active {
+.button:hover {
   background-color: #bbb;
   color: white;
-  border: 1px solid lightblue;
+  border: 1px solid white;
 }
+
+.button:active {
+  color: black;
+  border: 1px solid grey;
+  ;
+}
+
