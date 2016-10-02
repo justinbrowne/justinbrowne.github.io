@@ -9,7 +9,7 @@ h1 {
 }
 
 form {
-  border-radius: 5px;
+
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden;
   margin: 0 auto;
@@ -34,7 +34,7 @@ input {
 .regions-dropdown {
   border: 1px solid #32a4fb;
   display: inline-block;
-  height: 23px;
+  height: 21px;
 }
 
 .btn {
