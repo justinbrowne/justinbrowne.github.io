@@ -48,7 +48,7 @@ input {
 .ssab {
   font-size: .8em;
   color: black;
-  width: 80%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -73,4 +73,11 @@ input {
   color: white;
 }
 
+.shipping-info {
+  width: 100%;
+}
+
+input.checkbox[type='checkbox']:checked ~ .shipping-info {
+  display:none;
+}
 
