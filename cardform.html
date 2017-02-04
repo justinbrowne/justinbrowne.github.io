@@ -43,10 +43,10 @@
   <div class="container">
     <div class="content">
     <link rel="stylesheet" href="css/cardform.css">
-    <form>
+    <form id="cardform">
       <fieldset class="card-form">
-        <input type="name" placeholder="Cardholder's Name">
-        <input type="text"  maxlength="19" placeholder="Card Number">
+        <input type="name" placeholder="Cardholder's Name" id="cardname">
+        <input type="text"  maxlength="19" placeholder="Card Number" id="cardnumber">
         <input class="csv" type="text" maxlength="3" placeholder="CSV">
         <label for="month">Expiration Date</label>
         <select id="month">
@@ -95,6 +95,8 @@
       <p><a href="mailto=justinbrowne@live.com">Email</a></p>
     </div>  
   </footer>
+  <script src="validator.js"> </script>
+  <script src="cardform.js"></script>
 </body>
 
 </html>
