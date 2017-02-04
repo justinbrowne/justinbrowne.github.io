@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Learn Modern Developer Portfolio</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="calculator.css">
   <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Bungee+Shade|Alfa+Slab+One" rel="stylesheet"> </head>
 
 <body>
@@ -21,6 +21,7 @@
           <li class="sub-menu"><a href="button.html">Button Web Component</a></li>
           <li class="sub-menu"><a href="sidebar.html">Sidebar</a></li>
           <li class="sub-menu"><a href="calculator.html">The Calculator</a></li>
+          <li class="sub-menu"><a href="productlisting.html">Product Listing Page</a></li>
           <li class="sub-menu"><a href="productlisting.html">Product Listing Page</a></li>
         </ul>
       </li>
@@ -47,8 +48,7 @@
           <div class="row"> <button class="w25 grey" type="button" onclick="displayText(event)">7</button>
             <button class="w25 grey" type="button"
               onclick="displayText(event)">8</button> <button class="w25 grey" type="button" onclick="displayText(event)">9</button>
-              <button class="spcl w25 grey"
-                type="button" onclick="displayText(event)">+</button>
+			  <button class="spcl w25 grey" type="button" id="Equals">=</button>
           </div>
           <div class="row"> <button class="w25 grey" type="button" onclick="displayText(event)">4</button>
             <button class="w25 grey" type="button"
@@ -60,9 +60,9 @@
             <button class="w25 grey" type="button"
               onclick="displayText(event)">3</button> <button class="spcl w25 grey" type="button" onclick="displayText(event)">/</button> </div>
           <div class="row">
-          <button class="w25 grey" type="button" onclick="displayText(event)">0</button>
-            <button class="w25 grey" type="button"
-              onclick="displayText(event)">1</button> <button class="spcl w25 grey" type="button" id="Equals">=</button>
+          <button class="spcl w25 grey" type="button" onclick="displayText(event)">+</button>
+		  <button class="w25 grey" type="button" onclick="displayText(event)">0</button>
+            <button class="w25 grey" type="button" onclick="displayText(event)">1</button> 
               <button class="spcl w25 grey" type="button"
                 onclick="displayText(event)">x</button>
           </div>
