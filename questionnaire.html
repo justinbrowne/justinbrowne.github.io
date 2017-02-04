@@ -43,19 +43,19 @@
   <div class="container">
     <div class="content">
     <link rel="stylesheet" href="css/questionnaire.css">
-    <form method="post">
+    <form method="post" id="questionnaireform">
       <fieldset class="qnr">
       <legend class="qstn">What is your favorite food?</legend>
-        <input type="radio" name="food" value="Pizza">
+        <input type="radio" name="food" value="Pizza" id="firstinput">
         <label for="Pizza">Pizza</label>
-        <input type="radio" name="food" value="Hamburger">
+        <input type="radio" name="food" value="Hamburger" id="secondinput">
         <label for="Hamburger">Hamburger</label>
-        <input type="radio" name="food" value="Steak">
+        <input type="radio" name="food" value="Steak" id="thirdinput">
         <label for="Steak">Steak</label>
-        <input type="radio" name="food" value="Salad">
+        <input type="radio" name="food" value="Salad" id="fourthinput">
         <label for="Salad">Salad</label>
-        <input type="radio" name="food" value="Other">
-        <input class="other" type="text" name="other" placeholder="Other..">
+        <input type="radio" name="food" value="Other" id="fifthinput">
+        <input class="other" id="textinput" type="text" name="other" placeholder="Other..">
         <input class="submit" type="submit">
         </fieldset>
     </form>
@@ -70,6 +70,8 @@
       <p><a href="mailto=justinbrowne@live.com">Email</a></p>
     </div>  
   </footer>
+  <script src="validator.js"></script>
+  <script src="questionnaire.js"></script>
 </body>
 
 </html>

@@ -43,24 +43,24 @@
   <div class="container">
     <div class="content">
     <link rel="stylesheet" href="css/shippingform.css">
-      <form>
+      <form id="shippingform">
       <fieldset class="sandb">
         <label for="billing" class="blng">Billing</label>
-          <input id="billing" type="name" placeholder="First Name">
-          <input id="billing" type="name" placeholder="Last Name">
-          <input id="billing" type="text" placeholder="Address">
-          <input id="billing" type="text" placeholder="City">
-          <input id="billing" type="text" placeholder="Country">
+          <input id="firstbilling" type="name" placeholder="First Name">
+          <input id="lastbilling" type="name" placeholder="Last Name">
+          <input id="addressbilling" type="text" placeholder="Address">
+          <input id="citybilling" type="text" placeholder="City">
+          <input id="countrybilling" type="text" placeholder="Country">
         <label for="shipping">Shipping</label>
         <label class="ssab" for="checkbox">Shipping same as Billing?
         <input class="checkbox" type="checkbox" id="checkbox">
         <div class="shipping-info"
         </label>
-        <input id="shipping" type="name" placeholder="First Name">
-        <input id="shipping" type="name" placeholder="Last Name">
-        <input id="shipping" type="text" placeholder="Address">
-        <input id="shipping" type="text" placeholder="City">
-        <input id="shipping" type="text" placeholder="Country">
+        <input id="firstshipping" type="name" placeholder="First Name">
+        <input id="lastshipping" type="name" placeholder="Last Name">
+        <input id="addressshipping" type="text" placeholder="Address">
+        <input id="cityshipping" type="text" placeholder="City">
+        <input id="countryshipping" type="text" placeholder="Country">
         </div>
         <input class="submit" type="submit"> 
         </fieldset>
@@ -76,6 +76,8 @@
       <p><a href="mailto=justinbrowne@live.com">Email</a></p>
     </div>  
   </footer>
+  <script src="validator.js"> </script>
+  <script src="shippingform.js"></script>
 </body>
 
 </html>
