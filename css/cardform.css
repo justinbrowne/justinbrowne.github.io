@@ -46,6 +46,7 @@ input {
   width: 100%;
 }
 
+
 input.csv {
   width: 50px;
 }
@@ -59,3 +60,11 @@ input.csv {
   cursor: pointer;
   color: white;
 }
+
+input.oops {
+	background-color: rgba(255,0,0,0.5);
+	border: solid 2px red;
+	padding: 6px;
+	margin-top: 6px;
+	width: 100%;
+  }
